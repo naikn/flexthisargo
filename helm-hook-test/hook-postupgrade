@@ -2,7 +2,7 @@
  apiVersion: v1
  kind: Pod
  metadata:
-   name: hook-postinstall
+   name: hook-postupgrade
    annotations:
      "helm.sh/hook": "post-upgrade"
  spec:
