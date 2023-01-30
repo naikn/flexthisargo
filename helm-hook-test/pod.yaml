@@ -7,6 +7,6 @@
    - name: job-container
      image: busybox
      imagePullPolicy: IfNotPresent
-     command: ['sh', '-c', 'echo I am the job && sleep 300']
+     command: ['sh', '-c', 'echo I am the job && sleep 10']
    restartPolicy: Never
    terminationGracePeriodSeconds: 0
