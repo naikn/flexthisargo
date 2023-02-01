@@ -4,6 +4,7 @@
    name: hook-test
    annotations:
      "helm.sh/hook": "test"
+     "helm.sh/hook-weight": "-1"
  spec:
    containers:
    - name: hook2-container
