@@ -3,7 +3,7 @@
  metadata:
    name: hook-test
    annotations:
-     "argocd.argoproj.io/hook": "PostSync"
+     "helm.sh/hook": "test"
  spec:
    containers:
    - name: hook2-container
