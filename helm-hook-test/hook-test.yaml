@@ -10,6 +10,6 @@
    - name: hook2-container
      image: busybox
      imagePullPolicy: IfNotPresent
-     command: ['sh', '-c', 'echo post-install hook Pod is running - post sync fail && exit 0']
+     command: ['sh', '-c', 'echo helm-test done via post sync && exit 0']
    restartPolicy: Never
    terminationGracePeriodSeconds: 0  
